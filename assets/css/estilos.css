@@ -1,0 +1,44 @@
+blockquote {
+  position: relative;
+  margin: 80px auto;
+  width: 400px;
+  font-size: 48px;
+  padding-left: 40px;
+  border-left: 2px solid #fff;
+}
+
+blockquote span {
+  display: block;
+  text-align: right;
+  font-size: 1em;
+  line-height: 40px;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+blockquote.tweet-this .tweet-quote {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 74px;
+  height: 26px;
+  margin-top: -13px;
+  margin-left: -36px;
+  transition: all 0.2s ease;
+}
+
+.btn_borrar{
+  left: 85%;
+padding: 4px;
+clear: both;
+position: relative;
+height: 30px;
+width: 180px;
+background-color: #ffa7a6;
+border: 1px solid #a94442;
+border-radius: 8px;
+text-align: center;
+margin: 5px;
+color: #fff;
+font-weight: 600;
+}

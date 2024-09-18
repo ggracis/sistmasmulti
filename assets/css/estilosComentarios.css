@@ -1,0 +1,184 @@
+body {
+  font-family: Verdana, Arial, sans-serif;
+
+  margin-top: 18%;
+
+  text-align: center;
+
+  color: #005ca4;
+
+  overflow: hidden;
+}
+
+.tweet-this {
+  font-size: 2em;
+
+  text-align: left;
+
+  margin-top: 40%;
+
+  margin: auto;
+
+  width: 48%;
+
+  padding: 10px;
+
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.twittea {
+  font-size: 2em;
+
+  text-align: center;
+
+  margin: auto;
+
+  width: 100%;
+
+  padding: 10px;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #FFF;
+}
+
+.seconds {
+  background-color: rgba(0, 0, 0, 0.25);
+
+  height: 5px;
+
+  width: 48%;
+
+  margin: auto;
+
+  position: relative;
+}
+
+.bar {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(0%, #87d4d7),
+    color-stop(100%, #8bfbff)
+  );
+
+  height: 2px;
+
+  width: 0%;
+}
+
+.animating {
+  -webkit-animation: progress 40s infinite linear;
+}
+
+@-webkit-keyframes progress {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+.logo {
+  background-image: url(../images/came/bot.png), url(../images/came/izk.png), url(../images/logo_XX.png), url(../images/came/der.png);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 100%, 25%, 25%, 25%;
+  background-position: 0% 100%, 0% 100%, 50% 10%, 100% 0%;
+  width: 100%;
+  height: 67em;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bgMaster {
+}
+
+.bg {
+  animation: slide 3s ease-in-out infinite alternate;
+
+  background-image: linear-gradient(
+    -48deg,
+    #fff5db 50%,
+    #bee3ff 50%,
+    #efffec 74%
+  );
+
+  bottom: 0;
+
+  left: -50%;
+
+  opacity: 0.5;
+
+  position: fixed;
+
+  right: -50%;
+
+  top: 0;
+
+  z-index: -1;
+}
+
+.bg2 {
+  animation-direction: alternate-reverse;
+
+  animation-duration: 4s;
+}
+
+.bg3 {
+  animation-duration: 5s;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-25%);
+  }
+
+  100% {
+    transform: translateX(25%);
+  }
+}
+
+.carousel {
+  background-color: rgba(255, 255, 255, 0.1);
+
+  padding-top: 2%;
+}
+
+.carousel .item {
+  min-height: 280px;
+}
+
+.carousel .item img {
+  margin: 0 auto;
+}
+
+.nombrePregunta {
+  font-size: 2.7em;
+
+  font-style: oblique;
+
+  color: #00d0ff;
+
+  font-weight: 800;
+}
+
+.textoPregunta {
+  font-size: 2.2em;
+}
+
+.preguntasContenedor {
+  margin: auto;
+
+  width: 48%;
+}
+
+.carousel-control.left {
+  background: none;
+}
+
+.carousel-control.right {
+  background: none;
+}
